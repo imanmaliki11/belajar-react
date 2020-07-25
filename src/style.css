@@ -5,6 +5,24 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
 
 }
 
+.img-avatar {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+}
+
+.font-nav {
+    font-family: 'Lobster', cursive;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.font-body {
+    font-family: 'Dancing Script', cursive;
+}
+
 .fullpage {
     background: #ee9ca7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
