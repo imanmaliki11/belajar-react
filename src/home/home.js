@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { Row, Col } from 'react-bootstrap';
-import icon from './../img/ava.jpg';
+import icon from './../img/avatar.jpg';
 
 function Home() {
   return (
@@ -16,14 +16,14 @@ function Home() {
         </Row>
         <Row className="justify-content-center">
           <Col sm={7}>
-            <h3 className="font-body">
+            <h3 className="font-body py-3">
             Pemrograman adalah proses menulis, menguji dan memperbaiki,
             dan memelihara kode yang membangun suatu program komputer.
             Kode ini ditulis dalam berbagai bahasa pemrograman
             </h3>
           </Col>
         </Row>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center mt-4">
           <Button variant="outline-success">Download CV</Button>{' '}
         </Row>
       </div>
