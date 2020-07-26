@@ -1,11 +1,5 @@
 .bg-nav {
-    /* background: #ee9ca7; 
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  
-background: linear-gradient(to right, #ffdde1, #ee9ca7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #74ebd5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: transparent;
 }
 
 .img-avatar {
@@ -22,6 +16,29 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
     color: black !important;
 }
 
+.font-name {
+    font-family: 'Rowdies', cursive;
+}
+
+.contact-card {
+    background: #2ab1b62d;
+    box-shadow: 3px 3px 5px black;
+}
+
+.img-square {
+    height: 300px;
+    width: auto;
+}
+
+body, html {
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100%;
+    min-width: 100%;
+}
+
 .font-body {
     font-family: 'Dancing Script', cursive;
 }
@@ -30,10 +47,4 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      
-    position: absolute;
-    top: auto;
-    left: 0;
-    height: 90%;
-    width: 100%;
 }

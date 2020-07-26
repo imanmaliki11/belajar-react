@@ -9,8 +9,6 @@ function Home() {
     <div className="fullpage">
       <div className="container">
         <Row className="justify-content-center">
-          {/* <img className="img-avatar my-2" src="https://cdn2.iconfinder.com/data/icons/men-avatars/33/man_9-512.png"
-          alt="avatar" /> */}
           <img className="img-avatar my-2" src={icon}
           alt="avatar" />
         </Row>
